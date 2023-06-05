@@ -1,0 +1,218 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ---Navigation bar--- */
+.navbar {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.custom-navbar {
+  background-color: #1f2136;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.8px;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+  padding: 1px 3px;
+}
+
+.navbar-dark .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-item a:hover {
+  background-color: #ffffff;
+  color: #1f2136;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-toggler:hover {
+  border-color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.navbar-dark .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Small devices */
+@media screen and (max-width: 767px) {
+
+  .navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar .nav-item .nav-link {
+    padding-left: 5px;
+  }
+
+}
+
+/* ---Hero Image and Text--- */
+.hero-image {
+  background: url("../images/hero-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-text {
+  color: #ffffff;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-title {
+  font-size: 5rem;
+  font-weight: 500;
+}
+.hero-text-desc {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Large devices */
+@media screen and (max-width: 1200px) {
+
+  .hero-text-title {
+    font-size: calc(1.8rem + 4.27vw);
+  }
+
+  .hero-text-desc {
+    font-size: calc(1.2rem + 1.07vw);
+  }
+
+}
+
+.container-fluid {
+  padding: 3vh 10vw;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 600;
+  padding-bottom: 6vh;
+  padding-top: 3vh;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.col {
+  padding-bottom: 5vh;
+}
+
+.background {
+  background-color: #1f2136;
+}
+
+.heading-white {
+  color: #ffffff;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+/* ---About Me Section--- */
+.profile-image {
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+  max-width: 250px;
+  min-width: 150px;
+  width: 100%;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+/* ---Skills Section--- */
+.devicon-style {
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.skill-set {
+  color: #ffffff;
+}
+
+/* ---Portfolio Section--- */
+.btn-demo, .btn-demo:focus, .btn-demo:active {
+  background-color: #1f2136;
+  color: #ffffff;
+}
+
+.btn-demo:hover {
+  background-color: #ffffff;
+  border-color: #1f2136;
+  color: #1f2136;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ---Contact Section--- */
+.btn-contact {
+  background-color: #ffffff;
+  border-color: #1f2136;
+  color: #1f2136;
+}
+
+.btn-contact:hover {
+  background-color: #1f2136;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* ---Footer--- */
+.custom-footer {
+  background-color: #1f2136;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Medium devices */
+@media screen and (max-width: 992px) {
+
+
+}
+
+/* Small devices */
+@media screen and (max-width: 767px) {
+
+
+}
+
+/* Extra Small devices */
+@media screen and (max-width: 576px) {
+
+
+}
